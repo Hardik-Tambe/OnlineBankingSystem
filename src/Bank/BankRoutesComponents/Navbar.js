@@ -23,7 +23,7 @@ const Navbar = () => {
                     }
                     {loggedInUser.loggedIn ?
                         <>
-                            <li className="nav-item ">
+                            <li Name="nav-item ">
                                 <Link className="nav-link" to="/Logout"><button className="btn active fs-5">Logout</button></Link>
                             </li>
                             <li className="nav-item ">

@@ -144,7 +144,7 @@ function CreateAccount({ state, dispatch }) {
             <h2 className='bg-primary text-dark'>Account created successfully</h2>
             <h3>Account Number : {accountInfo.acc_no.toString()}</h3>
             <h3>PIN : {accountInfo.pin.toString()}</h3>
-
+            <p className='text-danger'>Please copy the Account no. and remember the pin then login.</p>
           </div>
         )}
         <button className="btn btn-primary" onClick={handleCreateAccount}>
